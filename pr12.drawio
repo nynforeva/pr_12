@@ -1,35 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.1">
   <diagram name="Страница-1" id="BTX1Nsz4etnyO6zO5Afx">
-    <mxGraphModel>
+    <mxGraphModel dx="4496" dy="5058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель приходит в библиотеку" vertex="1">
-          <mxGeometry height="78" width="260" x="372" y="8" as="geometry" />
+          <mxGeometry height="78" width="260" x="2067" y="-1560" as="geometry" />
         </mxCell>
         <mxCell id="3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Проверяется наличие читательского билета" vertex="1">
-          <mxGeometry height="278" width="278" x="363" y="136" as="geometry" />
+          <mxGeometry height="278" width="278" x="2058" y="-1432" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель выбирает книгу из каталога" vertex="1">
-          <mxGeometry height="78" width="260" x="167" y="488" as="geometry" />
+          <mxGeometry height="78" width="260" x="1862" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читателю предлагается оформить билет" vertex="1">
-          <mxGeometry height="78" width="260" x="477" y="488" as="geometry" />
+          <mxGeometry height="78" width="260" x="2172" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="6" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Проверяется доступность книги" vertex="1">
-          <mxGeometry height="278" width="278" x="71" y="616" as="geometry" />
+          <mxGeometry height="278" width="278" x="1766" y="-952" as="geometry" />
         </mxCell>
         <mxCell id="7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Система регистрирует выдачу книги" vertex="1">
-          <mxGeometry height="78" width="260" x="8" y="968" as="geometry" />
+          <mxGeometry height="78" width="260" x="1703" y="-600" as="geometry" />
         </mxCell>
         <mxCell id="8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читателю предлагается выбрать другую книгу" vertex="1">
-          <mxGeometry height="78" width="260" x="322" y="968" as="geometry" />
+          <mxGeometry height="78" width="260" x="2017" y="-600" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель получает книгу" vertex="1">
-          <mxGeometry height="54" width="245" x="15" y="1096" as="geometry" />
+          <mxGeometry height="54" width="245" x="1710" y="-472" as="geometry" />
         </mxCell>
         <mxCell id="10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Конец процесса" vertex="1">
-          <mxGeometry height="54" width="178" x="49" y="1200" as="geometry" />
+          <mxGeometry height="54" width="178" x="1744" y="-368" as="geometry" />
         </mxCell>
         <mxCell id="11" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="3" value="">
           <mxGeometry relative="1" as="geometry">
@@ -39,50 +39,50 @@
         <mxCell id="12" edge="1" parent="1" source="3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0;" target="4" value="Билет есть">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="297" y="451" />
+              <mxPoint x="1992" y="-1117" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="13" edge="1" parent="1" source="3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.29;entryY=0;" target="5" value="Билета нет">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="502" y="451" />
+              <mxPoint x="2197" y="-1117" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="14" edge="1" parent="1" source="5" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=0;entryX=0.88;entryY=1;" target="3" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="637" y="451" />
+              <mxPoint x="2332" y="-1117" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="15" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;" target="6" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="591" />
+              <mxPoint x="1905" y="-977" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="16" edge="1" parent="1" source="6" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;" target="7" value="Книга доступна">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="138" y="931" />
+              <mxPoint x="1833" y="-637" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="17" edge="1" parent="1" source="6" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.33;entryY=0;" target="8" value="Книга недоступна">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="365" y="931" />
+              <mxPoint x="2060" y="-637" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="18" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0;entryX=0.96;entryY=1;" target="4" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="495" y="931" />
-              <mxPoint x="495" y="591" />
+              <mxPoint x="2190" y="-637" />
+              <mxPoint x="2190" y="-977" />
             </Array>
           </mxGeometry>
         </mxCell>
